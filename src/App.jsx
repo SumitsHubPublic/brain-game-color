@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="container">
       <div className="game">
-        <p
+        <h1
           style={{
             color: `${textColors[color]}`,
             fontSize: `${started ? "5rem" : "3rem"}`,
@@ -28,7 +28,7 @@ function App() {
           }}
         >
           {started ? colors[index] : "Let's Start"}
-        </p>
+        </h1>
 
         <div className="btn-container">
           <button
